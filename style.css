@@ -31,7 +31,7 @@ li a {
     display:block;
     
     /*  */
-    color: rgb(228, 5, 5);
+    color:#00D262;
     
     /* The text-align property specifies the horizontal alignment of text in an element. */
     text-align: center;
@@ -46,12 +46,13 @@ li a {
 /* The :hover selector is used to select elements when you mouse over them. */
 li a:hover {
     /*  */
-    background-color:rgb(59, 63, 59);
+    background-color:#0281CE
 }
 
 li a .active {
     /*  */
-    background-color: black;
+    background-image:linear-gradient(#011C4B,#004483,#0F78BE,#88E6E3,#A8FFE5);
+    background-repeat: no-repeat;
 }
 h1{
     text-align: center;
@@ -67,7 +68,7 @@ body{
 }
 .landing{
     border-radius: 10px;
-    background-color:red;
+    background-color:#00D262;
     text-align: center;
     margin-top: 350px;
     
@@ -80,7 +81,7 @@ p{
 
 .contact{
     border-radius: 50%;
-    background-color:red;
+    background-color:#00D262;
     margin-right: 50px;
     height:350px;
     width: 350px;
@@ -141,7 +142,7 @@ body{
   /* Style the back side */
   .flip-card-back {
     background-color: black;
-    color: rgb(177, 52, 52);
+    color: #00D262;
     transform: rotateY(180deg);
     width: 300px;
     height: 300px;
