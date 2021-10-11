@@ -1,0 +1,160 @@
+/* The <ul> tag defines an unordered (bulleted) list */
+ul {
+    /* Remove list bullets */
+    list-style-type: none;
+    
+    /* The CSS margin properties are used to create space around elements, outside of any defined borders */
+    margin: 0;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 0;
+    
+    /* The overflow property specifies what should happen if content overflows an element's box. */
+    overflow: hidden;
+    
+    /*  */
+    background-color:transparent;
+     
+    border-style:solid ;
+
+    
+
+}
+/* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
+li {
+    /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
+    float:left;
+}
+/* The <a> tag defines a hyperlink, which is used to link from one page to another. */
+li a {
+    /* The display property specifies the display behavior (the type of rendering box) of an element. */
+    display:block;
+    
+    /*  */
+    color: rgb(228, 5, 5);
+    
+    /* The text-align property specifies the horizontal alignment of text in an element. */
+    text-align: center;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 14px 16px;
+    
+    /* The text-decoration property specifies the decoration added to text */
+    text-decoration: none;
+    font-weight: bolder;
+}
+/* The :hover selector is used to select elements when you mouse over them. */
+li a:hover {
+    /*  */
+    background-color:rgb(59, 63, 59);
+}
+
+li a .active {
+    /*  */
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+
+} 
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+body{
+    text-align: center;
+}
+.landing{
+    border-radius: 10px;
+    background-color:red;
+    text-align: center;
+    margin-top: 350px;
+    
+}
+p{
+    font-size:larger;
+    font-weight: bold;
+}
+
+
+.contact{
+    border-radius: 50%;
+    background-color:red;
+    margin-right: 50px;
+    height:350px;
+    width: 350px;
+}
+
+body{
+    background-image: linear-gradient(#011C4B,#004483,#0F78BE,#88E6E3,#A8FFE5);
+}
+.flip-card {
+    background-color:transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    padding: 50px;
+    margin: 50px;
+    border: 30px;
+   
+   
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: visible; /* Safari */
+    backface-visibility:hidden;
+    border-radius: 25px;
+    
+    
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color:transparent;
+    color: black;
+    
+   
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: black;
+    color: rgb(177, 52, 52);
+    transform: rotateY(180deg);
+    width: 300px;
+    height: 300px;
+    
+
+  }
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:initial;
+  }
+
+  img{
+      border-radius: 25px;
+  }
+
