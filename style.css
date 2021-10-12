@@ -51,7 +51,7 @@ li a:hover {
 
 li a .active {
     /*  */
-    background-image:linear-gradient(#3B3C35,#1E1F1B,#97BFB4);
+    background-image:linear-gradient(to right, #3B3C35,#1E1F1B);
     background-repeat: no-repeat;
 }
 h1{
@@ -80,15 +80,16 @@ p{
 
 
 .contact{
-    border-radius: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
     background-color:#97BFB4;
     height: 350px;
     width: 350px;
-    margin-left:85px;
+    margin-left: 62.5px;
     margin-top: 100px;
 }
 body{
-    background-image: linear-gradient(#3B3C35,#1E1F1B,#97BFB4);
+    background-image: linear-gradient(#3B3C35,#1E1F1B,);
 }
 .flip-card {
     background-color:transparent;
@@ -168,3 +169,39 @@ body{
     color: black;
     text-align: center;
  }
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-whatsapp {
+    background: #125688;
+    color: white;
+  }
+  

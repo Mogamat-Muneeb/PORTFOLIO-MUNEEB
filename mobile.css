@@ -1,0 +1,15 @@
+.about-img{
+  width: 30%;
+  height: 30%;
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .about-img{
+        display:inline-block;
+        
+    }
+
+}
