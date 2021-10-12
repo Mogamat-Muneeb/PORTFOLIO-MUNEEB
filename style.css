@@ -51,7 +51,7 @@ li a:hover {
 
 li a .active {
     /*  */
-    background-image:linear-gradient(#011C4B,#004483,#0F78BE,#88E6E3,#A8FFE5);
+    background-image:linear-gradient(#3B3C35,#1E1F1B,#97BFB4);
     background-repeat: no-repeat;
 }
 h1{
@@ -70,7 +70,7 @@ body{
     border-radius: 10px;
     background-color:#97BFB4;
     text-align: center;
-    margin-top: 350px;
+    margin-top: 270px;
     
 }
 p{
@@ -159,3 +159,12 @@ body{
       border-radius: 25px;
   }
 
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#97BFB4 ;
+    color: black;
+    text-align: center;
+ }
