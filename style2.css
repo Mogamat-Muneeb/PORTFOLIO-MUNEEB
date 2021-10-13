@@ -1,8 +1,10 @@
+
 html, body{
     height: 100%;
     width:100%;
-    overflow: hidden;
+    overflow:hidden;
     margin: 0;
+    
   }
   
   .grass, .sky, .road{
@@ -11,20 +13,20 @@ html, body{
   
   .sky{
     height: 40%;
-    background: skyblue;
+    background:#759696;
   }
   
   .grass{
     height: 30%;
-    background: seagreen;
+    background: linear-gradient(#248823,#006727);
   }
   
   .road{
     height: 30%;
-    background: dimgrey;
+    background: #252525;
     box-sizing: border-box;
-    border-top: 10px solid grey;
-    border-bottom: 10px solid grey;
+    border-top: 10px solid #7C7C7C ;
+    border-bottom: 10px solid #7C7C7C ;
     width: 100%;
   }
   
@@ -115,4 +117,15 @@ html, body{
   @keyframes wind {
     from { left: -300px }
     to { left: 100% }
+  }
+  .nav1{
+      background-color:transparent ;
+      display:block;
+      color:black;
+      margin-top:1%;
+      
+    
+  }
+  .navbar1{
+      background-color: transparent;
   }
