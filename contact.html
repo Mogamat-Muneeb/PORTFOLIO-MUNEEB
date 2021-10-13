@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css"  href="mobile.css">
+<link rel="stylesheet" href="style.css"  href="style2.css">
 <title>My Portfolio</title>
 <link rel="icon" href="Muneeb-design-sketch-name.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
   body{background-image:linear-gradient( to right, #3B3C35,#1E1F1B);
@@ -15,31 +16,38 @@
   <li><a href="about.html">About</a></li>
   <li><a href="testimonial.html">Testimomial</a></li>
   <li><a class="active" href="contact.html">Contact Me</a></li>
+  <li><a href="projects.html">Projects</a></li>
  
 </ul>
 
+<div class="container2">
+  <form action="https://formspree.io/f/xpzknvlg" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email Address</label>
+    <input type="text"  name="Email-Address" placeholder="Your email..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="South Africa">South Africa</option>
+      <option value="USA">USA</option>
+      <option value="UAE">UAE</option>
+
+   
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
 </div>
-<div class="contact">
-  <br>
-  <h2 style="color:black;">Contact ME</h2>
-  name:
-  <br>
-  <input style="color:black;"  type="text" name="name" placeholder="enter name" width="100%"><br>
-  Phone-number:
-  <br>
-  <input style="color:black ;"  type="text" name="Phone-number" placeholder="enter phone-number"><br>
-  E-mail-address:
-  <br>
-  <input style="color:black ;" type="text" name="E-mail-address" placeholder="enter e-mail-address"><br>
-  <br>
-  <h5> I AM SOCIAL</h5> 
-  <a href="" class="fa fa-facebook"></a>
-  <a href="#" class="fa fa-youtube"></a>
-  <a href="#" class="fa fa-instagram"></a>
-  <a href="" class="fa fa-whatsapp"></a>
 
-
-  </div>
+  
 </div>
 <div class="footer">
   <p>This portfolio belongs to M.Muneeb Davids</p>
