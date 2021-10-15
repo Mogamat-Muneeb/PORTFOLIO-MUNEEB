@@ -95,6 +95,8 @@ html, body{
     animation-iteration-count: infinite;
     animation-timing-function: ease;
     position: absolute;
+    background-color:transparent;
+    
   }
 
 
@@ -134,7 +136,7 @@ html, body{
   }
 
   @keyframes fly{
-    from{ left: 300px}
+    from{ left: -300px}
     to{left:100%}
 
 

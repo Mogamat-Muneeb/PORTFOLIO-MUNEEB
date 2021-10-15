@@ -70,12 +70,7 @@ body{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.landing{
-    border-radius: 10px;
-    background-color:#97BFB4;
-    text-align: center;
-    margin-top: 270px;
-    
+
     
 }
 p{
@@ -178,7 +173,7 @@ body{
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -188,7 +183,7 @@ body{
   
   input[type=submit] {
     background-color:transparent;
-    color: black;
+    
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -221,7 +216,7 @@ body{
    .flip-card{
     font-size: 10px;
     width: 10px;
-    height:30px ;
+    height:30 ;
    }
  }
 
