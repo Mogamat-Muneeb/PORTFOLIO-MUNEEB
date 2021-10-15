@@ -48,7 +48,7 @@ html, body{
     /* Call the keyframe */
     animation-name: drive;
     /* Specify how long you want the animation to last for */
-    animation-duration: 5s;
+    animation-duration: 12s;
     /* It takes the last keyframe element (to) and applies it to the image */
     animation-fill-mode: forwards;
     
@@ -79,7 +79,7 @@ html, body{
     top: 40px;
     left: 0;
     animation-name: drive;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -152,6 +152,8 @@ html, body{
       display:block;
       color:black;
       margin-top:9px;
+      margin-left: 7px;
+      margin-right: 7px;
       
     
   }

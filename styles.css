@@ -15,12 +15,9 @@ ul {
     background-color:transparent;
      
     border-style:solid ;
-    color:black;
-    
-
-    
-
+    color:black;    
 }
+
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
 li {
     /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
@@ -64,20 +61,20 @@ body,html{
     color: black;
     padding: 0;
     margin: 0;
-  }
-  .typing > *{
+}
+.typing > *{
     overflow: hidden;
     white-space: nowrap;
     animation: typingAnim 5s steps(50);
-  }
-  .typing > *::after{
+}
+.typing > *::after{
    
     display: block;
     position: absolute;
     top: 1em;
     left: .35em;
-  }
-  .typing > *::before{
+}
+.typing > *::before{
     
     position: absolute;
     display: block;
@@ -89,20 +86,20 @@ body,html{
     background: #fff;
     animation: typingSpeak .5s steps(2);
     animation-iteration-count: 5;
-  }
-  @keyframes typingAnim{
+}
+@keyframes typingAnim{
     from { width: 0 }
     to { width: 100% }
-  }
-  @keyframes typingSpeak{
+}
+@keyframes typingSpeak{
     0% { width: 1em; height: .1em }
     100% { width: 1em; height: .5em; }
-  }
-  .dimensions{
+}
+.dimensions{
       padding-top: 35%;
       
-  }
-  .nav{
+}
+.nav{
      margin:9px ;
     
-  }
+}
