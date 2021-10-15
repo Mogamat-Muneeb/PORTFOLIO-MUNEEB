@@ -83,14 +83,25 @@ html, body{
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    
-    /* Can choose the direction of the animation */
-    animation-direction: normal;
-  }
-  
-  .cloud {
     position: absolute;
   }
+  .bird{ 
+    position: absolute;
+    top: 40px;
+    left: 0;
+    animation-name: fly;
+    animation-duration:50s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    position: absolute;
+  }
+
+
+
+  .cloud {
+  position: absolute;
+}
   
   .cloud:nth-child(1) {
     width: 200px;
@@ -121,8 +132,21 @@ html, body{
     from { left: -300px }
     to { left: 100% }
   }
-  .nav1{
-      background-color:transparent ;
+
+  @keyframes fly{
+    from{ left: 300px}
+    to{left:100%}
+
+
+  }
+
+
+
+
+
+
+  .nav{
+      background-color:#759696 ;
       display:block;
       color:black;
       margin-top:9px;
@@ -130,5 +154,5 @@ html, body{
     
   }
   .navbar1{
-      background-color: transparent;
+      background-color:#759696;
   }

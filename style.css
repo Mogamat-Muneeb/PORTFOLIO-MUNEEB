@@ -43,7 +43,7 @@ li a {
     
     /* The text-decoration property specifies the decoration added to text */
     text-decoration: none;
-    font-weight: bolder;
+    font-size:8px;
 }
 /* The :hover selector is used to select elements when you mouse over them. */
 li a:hover {
@@ -140,7 +140,7 @@ body{
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color:transparent;
-    color: black;
+   
     
    
   }
@@ -217,4 +217,17 @@ body{
     margin-top: 50px;
   }
 
+ @media (max-width: 400px){
+   .flip-card{
+    font-size: 10px;
+    width: 10px;
+    height:30px ;
+   }
+ }
+
+
+
+
+  
+ }
  
